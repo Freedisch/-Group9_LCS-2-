@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#generating random variables
+Number1=$RANDOM
+Number2=$RANDOM
+
+#square root of each number
+Numb1="$((number1*number1))"
+Numb2="$((number2*number2))"
+sum="$((number1+number2))"
+ #print
+echo "the first random number $Numb1"
+echo "the square root of $Numb2"
+echo "the second random number $Numb2"
+echo "the square root of $Numb2"
+echo "the sum of the square root is $sum"
