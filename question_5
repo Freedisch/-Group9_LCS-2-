@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+while read -p "path: " path; 
+do
+	if [ -d $path ]; then ls $path;break; 
+	else continue;
+	fi 
+done;
