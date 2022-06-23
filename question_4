@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Reading the numbers
+echo "Enter the first number"
+read number1
+echo "Enter the second number"
+read number2
+#Printing the output of the product
+echo "The product of $number1 and $number2 is $((number1*number2))"
+
+for ((i=0; i<=3; i++))
+do
+	echo "Enter the name of your folder"
+	read name
+	mkdir $name
+done
